@@ -1,0 +1,12 @@
+
+
+the following shows three ways of get one branch code of the repository 
+
+1.git clone -b <branch-name>  url/xx.git
+
+
+2.git clone ssh://xxx/xx.git 
+  git checkout -b branch-name origin/branch-name
+  git checkout -t origin/branch-name
+
+3.git fetch origin <from>:<to>
